@@ -1,66 +1,43 @@
 html {
-  background: #576f35;
-  font-family: "Inter Tight", sans-serif;
+  background-color: #576f35;
 }
-ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  justify-content: flex-end;
-}
-.header .container {
+header {
+  display: flex;
+  justify-content: space-betweennav;
+  align-items: center;
+  padding: 0px 100px;
   width: 1280px;
   height: 52px;
-  margin-top: 30px;
-  display: inline-block;
-  justify-content: flex-start;
-  align-items: center;
 }
-.logo-first-icon {
-  color: white;
+.logo {
+  flex: 1;
 }
-.logo-second-icon {
-  color: white;
-}
-.logo .container {
-  width: 194px;
-  height: 18px;
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
   display: flex;
-  align-content: center;
-  margin-top: 50;
-  margin-left: 100px;
-  display: block;
 }
-.menu .container {
-  box-sizing: border-box;
-  width: 312px;
-  height: 44px;
-  display: inline;
-  gap: 10px;
-  align-self: flex-end;
+nav ul li {
+  margin-top: 34px;
+  margin-right: 20px;
 }
-.menu li {
-  display: inline;
+nav ul li:last-child {
+  margin-right: 0;
 }
-.header-menu-list {
-  display: inline;
-  margin-right: 10px;
+li button {
+  justify-content: center;
 }
-.menu-item-first {
-  font-family: "Inter Tight", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 125%;
-  letter-spacing: -0.02em;
-  text-align: center;
-  color: #fbfbfb;
+a {
+  text-decoration: none;
+}
+.nav-item {
   border: 1px solid rgba(251, 251, 251, 0.4);
   border-radius: 12px;
-  padding: 12px;
+  padding: 5px;
   width: 114px;
   height: 44px;
-}
-.menu-item-second {
   font-family: "Inter Tight", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -68,36 +45,15 @@ ul {
   letter-spacing: -0.02em;
   text-align: center;
   color: #fbfbfb;
-  border: 1px solid rgba(251, 251, 251, 0.4);
-  border-radius: 12px;
-  padding: 12px;
-  width: 101px;
-  height: 44px;
+  justify-content: center;
 }
-.menu-item-third {
-  font-family: "Inter Tight", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 125%;
-  letter-spacing: -0.02em;
-  text-align: center;
-  color: #fbfbfb;
-  border: 1px solid rgba(251, 251, 251, 0.4);
-  border-radius: 12px;
-  padding: 12px;
-  width: 81px;
-  height: 44px;
-}
-.button-text {
-  font-family: "Inter Tight", sans-serif;
-  font-weight: 600;
-  font-size: 18px;
-
-  letter-spacing: 0.03em;
-  color: #fbfbfb;
+button {
   border-radius: 30px;
-  padding: 2px 3px;
+  border: none;
+  padding: 16px 32px;
   width: 157px;
   height: 52px;
-  background: #7a3145;
+  background-color: #7a3145;
+  font-family: "Inter Tight", sans-serif;
+  color: #fbfbfb;
 }
